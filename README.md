@@ -8,4 +8,6 @@ Fine tuning and text-generation using OpenAI's GPT-2 on blog data set.
 
 ```prepare_data.ipynb``` : Prepare data into train, valid, test files <br>
 
-```text_generation.ipyb``` : Fine-tune on prepared train set and text generation 
+```text_generation.ipyb``` : Fine-tune GPT-2 on prepared train set and text generation  
+
+Code files in ```transformers``` that need to be replaced: ```run_generation.py``` and ```run_language_modeling.py``` (instructions in text_generation.ipynb)
