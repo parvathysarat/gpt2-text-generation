@@ -1,6 +1,6 @@
 # gpt2-text-generation
 
-Fine tuning and text-generation using GPT-2 on blog data set. 
+Fine tuning and text-generation using OpenAI's GPT-2 on blog data set. 
 
 ```content-extraction``` : Extracting blog data using wordpress API <br>
 
