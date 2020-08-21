@@ -16,7 +16,7 @@ from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, GetPost
 from wordpress_xmlrpc.methods.users import GetUserInfo
 
-client = Client("https://trustmeyourealive.wordpress.com/xmlrpc.php", 'parvathysarat', 'owwkutoos')
+client = Client("https://trustmeyourealive.wordpress.com/xmlrpc.php", 'username', 'password')
 all_posts = client.call(GetPosts({'number':80,'post_status': 'publish'}, results_class=WordPressPost))
 
 print(all_posts[0])
